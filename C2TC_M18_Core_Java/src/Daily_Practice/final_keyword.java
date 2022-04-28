@@ -1,13 +1,13 @@
 package Daily_Practice;
 
 class car {
-	final void driving() {
+	void driving() {
 		System.out.println("In car adding the accelarate feature");
 	}
 }
 
 class suzuki extends car {
-	final void acfeature() {
+	void acfeature() {
 		System.out.println("updated feature in suzuki car");
 	}
 
