@@ -8,7 +8,7 @@ class student
 	void info()
 	{
 	 id=2;
-	 s="Archana";
+	 s="Archana_ingle";
 		System.out.println(" student info:" +"id "+id +" " +"name: " +s);
 	}
 }

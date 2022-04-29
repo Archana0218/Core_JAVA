@@ -7,15 +7,12 @@ public class BufferedReader {
 		InputStreamReader r =new InputStreamReader(System.in);
 		BufferedReader br=new BufferedReader();
 		System.out.println("Enter Your Name: ");
-		String name=br.readLine();
+		String name=eadLine();
 System.out.println("Welcome:"+name);
 
 
 	}
 
-	private String readLine() {
-		// TODO Auto-generated method stub
-		return null;
-	}
+	
 
 }
