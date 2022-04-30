@@ -6,9 +6,11 @@ public class BufferedReader {
 		// TODO Auto-generated method stub
 		InputStreamReader r =new InputStreamReader(System.in);
 		BufferedReader br=new BufferedReader();
-		System.out.println("Enter Your Name: ");
+		
 		String name=readLine();
-		System.out.println("Welcome:"+name);
+		System.out.println("Enter Your Name: "+name);
+		String n=readLine();
+		System.out.println("Welcome:"+n);
 
 
 	}
